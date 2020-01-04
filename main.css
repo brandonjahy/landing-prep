@@ -1,1 +1,74 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+body {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #d4af37;
+}
+
+body .circle {
+  height: 150%;
+  width: 100%;
+  background: #eee;
+  position: absolute;
+  left: 50%;
+  border-radius: 50%;
+}
+
+body .container {
+  width: 90%;
+  height: 90%;
+  background: #fff;
+  z-index: 1;
+  border-radius: 10px;
+}
+
+header {
+  width: 100%;
+  height: 15vh;
+}
+
+header .navbar {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Dosis", sans-serif;
+}
+
+header .navbar .logo img {
+  height: 90px;
+  width: 90px;
+}
+
+header .navbar a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: #000;
+  padding-bottom: 5px;
+  font-weight: 300;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+header .navbar a:hover {
+  color: #d4af37;
+  font-weight: 500;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  border-bottom: 2px solid #d4af37;
+}
+/*# sourceMappingURL=main.css.map */
