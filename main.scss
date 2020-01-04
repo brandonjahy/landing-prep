@@ -59,3 +59,71 @@ header {
         }
     }
 }
+
+.left-side {
+    height: 80%;
+    width: 40%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .text-block {
+        margin: 5%;
+        position: relative;
+        h4 {
+            position: absolute;
+            font-family: $smallfont;
+            font-weight: 300;
+            text-transform: uppercase;
+            top: -180px;
+            font-size: 1.4rem;
+            letter-spacing: 2px;
+            .you {
+                font-weight: 500;
+            }
+            .brand {
+                font-weight: 500;
+                color: #d4af37;
+            }
+        }
+        h1 {
+            position: absolute;
+            font-family: $bigfont;
+            text-transform: capitalize;
+            font-size: 5rem;
+            top: -150px;
+            padding: 30px 0;
+            .story {
+                color: #d4af37;
+            }
+        }
+        p {
+            // position: absolute;
+            padding-top: 70px;
+            font-family: $smallfont;
+            font-size: 1.6rem;
+            text-transform: capitalize;
+            font-weight: 300;
+        }
+        button {
+            position: absolute;
+            top: 200px;
+            height: 60px;
+            width: 250px;
+            font-size: 1.2rem;
+            background: #d4af37;
+            border-radius: 30px;
+            font-family: $smallfont;
+            -webkit-box-shadow: 6px 7px 22px -12px rgba(0,0,0,0.75);
+            -moz-box-shadow: 6px 7px 22px -12px rgba(0,0,0,0.75);
+            box-shadow: 6px 7px 22px -12px rgba(0,0,0,0.75);
+        }
+    }
+}
+
+.right-side {
+    height: 80%;
+    width: 60%;
+    background: #aaa;
+    float: right;
+}

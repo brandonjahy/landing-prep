@@ -71,4 +71,84 @@ header .navbar a:hover {
           transform: scale(1.2);
   border-bottom: 2px solid #d4af37;
 }
+
+.left-side {
+  height: 80%;
+  width: 40%;
+  float: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.left-side .text-block {
+  margin: 5%;
+  position: relative;
+}
+
+.left-side .text-block h4 {
+  position: absolute;
+  font-family: "Dosis", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  top: -180px;
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+}
+
+.left-side .text-block h4 .you {
+  font-weight: 500;
+}
+
+.left-side .text-block h4 .brand {
+  font-weight: 500;
+  color: #d4af37;
+}
+
+.left-side .text-block h1 {
+  position: absolute;
+  font-family: "Source Serif Pro", serif;
+  text-transform: capitalize;
+  font-size: 5rem;
+  top: -150px;
+  padding: 30px 0;
+}
+
+.left-side .text-block h1 .story {
+  color: #d4af37;
+}
+
+.left-side .text-block p {
+  padding-top: 70px;
+  font-family: "Dosis", sans-serif;
+  font-size: 1.6rem;
+  text-transform: capitalize;
+  font-weight: 300;
+}
+
+.left-side .text-block button {
+  position: absolute;
+  top: 200px;
+  height: 60px;
+  width: 250px;
+  font-size: 1.2rem;
+  background: #d4af37;
+  border-radius: 30px;
+  font-family: "Dosis", sans-serif;
+  -webkit-box-shadow: 6px 7px 22px -12px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 7px 22px -12px rgba(0, 0, 0, 0.75);
+}
+
+.right-side {
+  height: 80%;
+  width: 60%;
+  background: #aaa;
+  float: right;
+}
 /*# sourceMappingURL=main.css.map */
