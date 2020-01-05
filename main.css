@@ -10,7 +10,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: #d4af37;
+  background: #c6a15e;
 }
 
 body .circle {
@@ -46,7 +46,7 @@ header .navbar {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: "Dosis", sans-serif;
+  font-family: "PT Sans Narrow", sans-serif;
 }
 
 header .navbar .logo img {
@@ -59,14 +59,14 @@ header .navbar a {
   text-decoration: none;
   color: #000;
   padding-bottom: 5px;
-  font-weight: 300;
+  font-weight: 400;
   -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
 }
 
 header .navbar a:hover {
-  color: #d4af37;
-  font-weight: 500;
+  color: #c6a15e;
+  font-weight: 700;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
   border-bottom: 2px solid #d4af37;
@@ -88,14 +88,14 @@ header .navbar a:hover {
 }
 
 .left-side .text-block {
-  margin: 5%;
+  margin-left: 10%;
   position: relative;
 }
 
 .left-side .text-block h4 {
   position: absolute;
-  font-family: "Dosis", sans-serif;
-  font-weight: 300;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 400;
   text-transform: uppercase;
   top: -180px;
   font-size: 1.4rem;
@@ -103,17 +103,17 @@ header .navbar a:hover {
 }
 
 .left-side .text-block h4 .you {
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .left-side .text-block h4 .brand {
-  font-weight: 500;
-  color: #d4af37;
+  font-weight: 700;
+  color: #c6a15e;
 }
 
 .left-side .text-block h1 {
   position: absolute;
-  font-family: "Source Serif Pro", serif;
+  font-family: "Libre Baskerville", serif;
   text-transform: capitalize;
   font-size: 5rem;
   top: -150px;
@@ -121,12 +121,12 @@ header .navbar a:hover {
 }
 
 .left-side .text-block h1 .story {
-  color: #d4af37;
+  color: #c6a15e;
 }
 
 .left-side .text-block p {
   padding-top: 70px;
-  font-family: "Dosis", sans-serif;
+  font-family: "PT Sans Narrow", sans-serif;
   font-size: 1.6rem;
   text-transform: capitalize;
   font-weight: 300;
@@ -138,17 +138,45 @@ header .navbar a:hover {
   height: 60px;
   width: 250px;
   font-size: 1.2rem;
-  background: #d4af37;
+  background: #c6a15e;
   border-radius: 30px;
-  font-family: "Dosis", sans-serif;
+  font-family: "PT Sans Narrow", sans-serif;
   -webkit-box-shadow: 6px 7px 22px -12px rgba(0, 0, 0, 0.75);
   box-shadow: 6px 7px 22px -12px rgba(0, 0, 0, 0.75);
+}
+
+.left-side .text-block button .circle {
+  height: 40px;
+  width: 40px;
+  left: 203px;
+  top: 9px;
+  background: #d4b06b;
+  position: absolute;
 }
 
 .right-side {
   height: 80%;
   width: 60%;
-  background: #aaa;
+  background: #fff;
   float: right;
+  position: relative;
+}
+
+.right-side .circle {
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+  background: #c6a15e;
+  left: 180px;
+  top: 80px;
+  position: absolute;
+}
+
+.right-side img {
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  top: 20px;
+  left: 150px;
 }
 /*# sourceMappingURL=main.css.map */

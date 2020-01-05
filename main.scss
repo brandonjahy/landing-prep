@@ -1,6 +1,6 @@
 
-$smallfont: 'Dosis', sans-serif;
-$bigfont: 'Source Serif Pro', serif;;
+$smallfont: 'PT Sans Narrow', sans-serif;
+$bigfont: 'Libre Baskerville', serif;
 
 body {
     width: 100%;
@@ -8,7 +8,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #d4af37;
+    background: #c6a15e;
     .circle {
         height: 150%;
         width: 100%;
@@ -48,11 +48,11 @@ header {
             text-decoration: none;
             color: #000;
             padding-bottom: 5px;
-            font-weight: 300;
+            font-weight: 400;
             transition: all .2s ease-in-out;
             &:hover {
-                color: #d4af37;
-                font-weight: 500;
+                color:#c6a15e;
+                font-weight: 700;
                 transform: scale(1.2);
                 border-bottom: 2px solid #d4af37;
             }
@@ -68,22 +68,23 @@ header {
     justify-content: center;
     align-items: center;
     .text-block {
-        margin: 5%;
+
+        margin-left: 10%;
         position: relative;
         h4 {
             position: absolute;
             font-family: $smallfont;
-            font-weight: 300;
+            font-weight: 400;
             text-transform: uppercase;
             top: -180px;
             font-size: 1.4rem;
             letter-spacing: 2px;
             .you {
-                font-weight: 500;
+                font-weight: 700;
             }
             .brand {
-                font-weight: 500;
-                color: #d4af37;
+                font-weight: 700;
+                color: #c6a15e;
             }
         }
         h1 {
@@ -94,7 +95,7 @@ header {
             top: -150px;
             padding: 30px 0;
             .story {
-                color: #d4af37;
+                color: #c6a15e;
             }
         }
         p {
@@ -111,12 +112,20 @@ header {
             height: 60px;
             width: 250px;
             font-size: 1.2rem;
-            background: #d4af37;
+            background: #c6a15e;
             border-radius: 30px;
             font-family: $smallfont;
             -webkit-box-shadow: 6px 7px 22px -12px rgba(0,0,0,0.75);
             -moz-box-shadow: 6px 7px 22px -12px rgba(0,0,0,0.75);
             box-shadow: 6px 7px 22px -12px rgba(0,0,0,0.75);
+            .circle {
+                height: 40px;
+                width: 40px;
+                left: 203px;
+                top: 9px;
+                background: #d4b06b;
+                position: absolute;
+            }
         }
     }
 }
@@ -124,6 +133,23 @@ header {
 .right-side {
     height: 80%;
     width: 60%;
-    background: #aaa;
+    background: #fff;
     float: right;
+    position: relative;
+    .circle {
+        height: 350px;
+        width: 350px;
+        border-radius: 50%;
+        background: #c6a15e;
+        left: 180px;
+        top: 80px;
+        position: absolute;
+    }
+    img {
+        height: 500px;
+        width: 500px;
+        position: absolute;
+        top: 20px;
+        left: 150px;
+    }
 }
